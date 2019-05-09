@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="4" revision="thud"/>
+
+  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote fetch="https://github.com/openembedded" name="oe"/>
+  <remote fetch="https://github.com/STMicroelectronics" name="st"/>
+  <remote fetch="https://github.com/bytesatwork" name="bytesatwork"/>
+
+  <project remote="yocto" revision="warrior" name="poky" path="sources/poky"/>
+  <project remote="oe" revision="warrior" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="bytesatwork" revision="warrior" upstream="meta-st-stm32mp.git" name="meta-st-stm32mp" path="sources/meta-st-stm32mp"/>
+  <project remote="bytesatwork" revision="warrior" name="meta-bytesatwork" path="sources/meta-bytesatwork"/>
+  <project remote="bytesatwork" revision="warrior" name="meta-bytesatwork-st" path="sources/meta-bytesatwork-st"/>
+  <project remote="bytesatwork" revision="warrior" name="bsp-base-st" path="sources/base">
+    <copyfile dest="README.md" src="README.md"/>
+    <copyfile dest="setup-environment" src="setup-environment"/>
+  </project>
+
+</manifest>
