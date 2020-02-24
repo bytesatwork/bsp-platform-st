@@ -9,7 +9,7 @@ AG](https://www.bytesatwork.ch).
 
 Use repo to download all necessary repositories:
 
-	repo init -u https://github.com/bytesatwork/bsp-platform-st.git -b warrior
+	repo init -u https://github.com/bytesatwork/bsp-platform-st.git -b zeus
 	repo sync
 
 When this commands completed successful, the following command will setup a
