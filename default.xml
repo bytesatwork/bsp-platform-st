@@ -8,12 +8,12 @@
   <remote fetch="https://github.com/STMicroelectronics" name="st"/>
   <remote fetch="https://github.com/bytesatwork" name="bytesatwork"/>
 
-  <project remote="yocto" revision="warrior" name="poky" path="sources/poky"/>
-  <project remote="oe" revision="warrior" name="meta-openembedded" path="sources/meta-openembedded"/>
-  <project remote="bytesatwork" revision="warrior" upstream="meta-st-stm32mp.git" name="meta-st-stm32mp" path="sources/meta-st-stm32mp"/>
-  <project remote="bytesatwork" revision="warrior" name="meta-bytesatwork" path="sources/meta-bytesatwork"/>
-  <project remote="bytesatwork" revision="warrior" name="meta-bytesatwork-st" path="sources/meta-bytesatwork-st"/>
-  <project remote="bytesatwork" revision="warrior" name="bsp-base-st" path="sources/base">
+  <project remote="yocto" revision="10439ba4d366b7d009e4fedba0955779b647fda4" name="poky" path="sources/poky"/>
+  <project remote="oe" revision="a24acf94d48d635eca668ea34598c6e5c857e3f8" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="bytesatwork" revision="2d29026d1896728e3b0c738ed1e849126c7c02ec" name="meta-st-stm32mp" path="sources/meta-st-stm32mp"/>
+  <project remote="bytesatwork" revision="204d9d3e21e125faad56e522ab38bd439b2efc52" name="meta-bytesatwork" path="sources/meta-bytesatwork"/>
+  <project remote="bytesatwork" revision="00e7f830ed666162fbb0eb4861708fbcf594d780" name="meta-bytesatwork-st" path="sources/meta-bytesatwork-st"/>
+  <project remote="bytesatwork" revision="7441eb093cab5698acf0a9b44c1bb659e31a5c5f" name="bsp-base-st" path="sources/base">
     <copyfile dest="README.md" src="README.md"/>
     <copyfile dest="setup-environment" src="setup-environment"/>
   </project>
