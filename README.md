@@ -1,4 +1,4 @@
-# bytes at work AG BSP platform manifest for stmp32mp1 based modules
+# bytes at work AG BSP platform manifest for stm32mp1 based modules
 
 This contains the manifest for
 [repo](https://source.android.com/setup/develop/repo) and is intended to
