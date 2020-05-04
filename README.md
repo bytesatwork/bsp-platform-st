@@ -17,9 +17,9 @@ Yocto Project environment for byteDEVKIT:
 
 	MACHINE=bytedevkit DISTRO=poky-bytesatwork EULA=1 . setup-environment build
 
-The final command builds a development image:
+The final command builds a minimal image:
 
-	bitbake devbase-image-bytesatwork
+	bitbake bytesatwork-minimal-image
 
 The output is found in:
 
