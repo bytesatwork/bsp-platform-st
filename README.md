@@ -1,9 +1,7 @@
 # bytes at work AG BSP platform manifest for stm32mp1 based modules
 
-This contains the manifest for
-[repo](https://source.android.com/setup/develop/repo) and is intended to
-simplify the build procedure for byteDEVKIT by [bytes at work
-AG](https://www.bytesatwork.ch).
+This contains the manifest for [repo](https://source.android.com/setup/develop/repo) and is intended to
+simplify the build procedure for byteDEVKIT by [bytes at work AG](https://www.bytesatwork.ch).
 
 ## Usage
 
