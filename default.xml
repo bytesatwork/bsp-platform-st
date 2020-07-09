@@ -11,14 +11,14 @@
   <remote fetch="https://github.com/meta-rust" name="rust"/>
   <remote fetch="https://github.com/bytesatwork" name="bytesatwork"/>
 
-  <project remote="yocto" revision="74f229160c7f4037107c1dad8f0d02128c080a7e" name="poky" path="sources/poky"/>
-  <project remote="oe" revision="9e60d30669a2ad0598e9abf0cd15ee06b523986b" name="meta-openembedded" path="sources/meta-openembedded"/>
-  <project remote="intel-iot" revision="aa99c9019c3100b452a4474f57714f3129f444a5" name="meta-iot-cloud" path="sources/meta-iot-cloud"/>
-  <project remote="qt5" revision="852e279a45da2b68719fecdaad3573b2ada9558c" name="meta-qt5" path="sources/meta-qt5"/>
-  <project remote="rust" revision="a012a1027defe28495f06ed522a7a82bdd59a610" name="meta-rust" path="sources/meta-rust"/>
-  <project remote="bytesatwork" revision="0a8a0160d34cf8177a3f32f34c71ed3f6460c4a4" name="meta-st-stm32mp" path="sources/meta-st-stm32mp"/>
+  <project remote="yocto"       revision="d6c3a4db81576aec3a7ceab17969faff97e94aa0" name="poky" path="sources/poky"/>
+  <project remote="oe"          revision="2b5dd1eb81cd08bc065bc76125f2856e9383e98b" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="intel-iot"   revision="aa99c9019c3100b452a4474f57714f3129f444a5" name="meta-iot-cloud" path="sources/meta-iot-cloud"/>
+  <project remote="qt5"         revision="45706c620e215e9ac51e66f0e6946410e7b7e087" name="meta-qt5" path="sources/meta-qt5"/>
+  <project remote="rust"        revision="7f235b6f8973cc5269448375f2a8f9867bb2a369" name="meta-rust" path="sources/meta-rust"/>
+  <project remote="st"          revision="0660d5d265fbafde714cc8f46775ba725a3e0234" name="meta-st-stm32mp" path="sources/meta-st-stm32mp"/>
   <project remote="bytesatwork" revision="fb8e6778b4171db8891f68369ddea818cddad1e4" name="meta-bytesatwork" path="sources/meta-bytesatwork"/>
-  <project remote="bytesatwork" revision="4464c7b4c8cbb835364cd14b23e9bd23a34aa3ab" name="meta-bytesatwork-st" path="sources/meta-bytesatwork-st"/>
+  <project remote="bytesatwork" revision="6dd4e025546a3a5f7a7da57d2dbced612f41afa7" name="meta-bytesatwork-st" path="sources/meta-bytesatwork-st"/>
   <project remote="bytesatwork" revision="f95f7ba000a55a5f3b7fdcc29e2029beb398a16a" name="bsp-base-st" path="sources/base">
     <copyfile dest="README.md" src="README.md"/>
     <copyfile dest="setup-environment" src="setup-environment"/>
