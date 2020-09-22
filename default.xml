@@ -11,15 +11,15 @@
   <remote fetch="https://github.com/meta-rust" name="rust"/>
   <remote fetch="https://github.com/bytesatwork" name="bytesatwork"/>
 
-  <project remote="yocto" revision="39d7cf1abb2c88baaedb3a627eba8827747b2eb9" name="poky" path="sources/poky"/>
-  <project remote="st" revision="36a9911705bd37df136e9ac51dbf418861d510c9" name="meta-st-stm32mp" path="sources/meta-st-stm32mp"/>
-  <project remote="oe" revision="d7b41ced4b9a9a68083b0fcceff3b226298cff8b" name="meta-openembedded" path="sources/meta-openembedded"/>
-  <project remote="intel-iot" revision="45f83bbef34fb7760942e0ab650ab107053032d6" name="meta-iot-cloud" path="sources/meta-iot-cloud"/>
-  <project remote="qt5" revision="0e7015f7a86dda995a39662edbb5c26da647c496" name="meta-qt5" path="sources/meta-qt5"/>
-  <project remote="rust" revision="318fb46863c0df5001f937bb4ca856491a493725" name="meta-rust" path="sources/meta-rust"/>
-  <project remote="bytesatwork" revision="e7db1dc2aa722dae27b6c15fddced0ef1a3d4d54" name="meta-bytesatwork" path="sources/meta-bytesatwork"/>
-  <project remote="bytesatwork" revision="131629cf9db0e6000290e22f38943b324219a2bd" name="meta-bytesatwork-st" path="sources/meta-bytesatwork-st"/>
-  <project remote="bytesatwork" revision="bd2424d05c61003c719eb673d56b3186aacba10d" name="bsp-base-st" path="sources/base">
+  <project remote="yocto" name="poky" path="sources/poky"/>
+  <project remote="st" name="meta-st-stm32mp" path="sources/meta-st-stm32mp"/>
+  <project remote="oe" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="intel-iot" name="meta-iot-cloud" path="sources/meta-iot-cloud"/>
+  <project remote="qt5" name="meta-qt5" path="sources/meta-qt5"/>
+  <project remote="rust" revision="master" name="meta-rust" path="sources/meta-rust"/>
+  <project remote="bytesatwork" name="meta-bytesatwork" path="sources/meta-bytesatwork"/>
+  <project remote="bytesatwork" name="meta-bytesatwork-st" path="sources/meta-bytesatwork-st"/>
+  <project remote="bytesatwork" name="bsp-base-st" path="sources/base">
     <copyfile dest="README.md" src="README.md"/>
     <copyfile dest="setup-environment" src="setup-environment"/>
   </project>
