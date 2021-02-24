@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default sync-j="4" revision="dunfell"/>
+  <default sync-j="4" revision="gatesgarth"/>
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
@@ -11,14 +11,14 @@
   <remote fetch="https://github.com/meta-rust" name="rust"/>
   <remote fetch="https://github.com/bytesatwork" name="bytesatwork"/>
 
-  <project remote="yocto" revision="39d7cf1abb2c88baaedb3a627eba8827747b2eb9" name="poky" path="sources/poky"/>
-  <project remote="st" revision="36a9911705bd37df136e9ac51dbf418861d510c9" name="meta-st-stm32mp" path="sources/meta-st-stm32mp"/>
-  <project remote="oe" revision="d7b41ced4b9a9a68083b0fcceff3b226298cff8b" name="meta-openembedded" path="sources/meta-openembedded"/>
-  <project remote="intel-iot" revision="45f83bbef34fb7760942e0ab650ab107053032d6" name="meta-iot-cloud" path="sources/meta-iot-cloud"/>
-  <project remote="qt5" revision="0e7015f7a86dda995a39662edbb5c26da647c496" name="meta-qt5" path="sources/meta-qt5"/>
-  <project remote="rust" revision="318fb46863c0df5001f937bb4ca856491a493725" name="meta-rust" path="sources/meta-rust"/>
-  <project remote="bytesatwork" revision="e7db1dc2aa722dae27b6c15fddced0ef1a3d4d54" name="meta-bytesatwork" path="sources/meta-bytesatwork"/>
-  <project remote="bytesatwork" revision="131629cf9db0e6000290e22f38943b324219a2bd" name="meta-bytesatwork-st" path="sources/meta-bytesatwork-st"/>
+  <project remote="yocto" revision="d5d6286a66f46f4523e35e0e3f20cd7396195fdc" name="poky" path="sources/poky"/>
+  <project remote="st" revision="1a1f35012f69d1073440a81dc8e747f1380f30cf" name="meta-st-stm32mp" path="sources/meta-st-stm32mp"/>
+  <project remote="oe" revision="945f062ff098dc9c8ba8d22c5eef88adec60730d" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="intel-iot" revision="f9b0f81f095bc6e6346f639b5cb593f089a074c5" name="meta-iot-cloud" path="sources/meta-iot-cloud"/>
+  <project remote="qt5" revision="2b33a5d5e888370bb56685b86aa82b73624f19f0" name="meta-qt5" path="sources/meta-qt5"/>
+  <project remote="rust" revision="7a261d5d148b8e7631be1f89afc26024c266a279" name="meta-rust" path="sources/meta-rust"/>
+  <project remote="bytesatwork" revision="9a6093e3d74344b49a023d12d7effe82e282fddc" name="meta-bytesatwork" path="sources/meta-bytesatwork"/>
+  <project remote="bytesatwork" revision="57de4a1ceca6e585e8f9856989be89f068a3955d" name="meta-bytesatwork-st" path="sources/meta-bytesatwork-st"/>
   <project remote="bytesatwork" revision="bd2424d05c61003c719eb673d56b3186aacba10d" name="bsp-base-st" path="sources/base">
     <copyfile dest="README.md" src="README.md"/>
     <copyfile dest="setup-environment" src="setup-environment"/>
