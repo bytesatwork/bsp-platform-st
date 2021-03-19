@@ -11,7 +11,7 @@
   <remote fetch="https://github.com/meta-rust" name="rust"/>
   <remote fetch="https://github.com/bytesatwork" name="bytesatwork"/>
 
-  <project remote="yocto" revision="d5d6286a66f46f4523e35e0e3f20cd7396195fdc" name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="6ed895d2b2d0dd5e5c85851c082954f5bb0294a0" name="poky" path="sources/poky"/>
   <project remote="st" revision="1a1f35012f69d1073440a81dc8e747f1380f30cf" name="meta-st-stm32mp" path="sources/meta-st-stm32mp"/>
   <project remote="oe" revision="945f062ff098dc9c8ba8d22c5eef88adec60730d" name="meta-openembedded" path="sources/meta-openembedded"/>
   <project remote="intel-iot" revision="f9b0f81f095bc6e6346f639b5cb593f089a074c5" name="meta-iot-cloud" path="sources/meta-iot-cloud"/>
