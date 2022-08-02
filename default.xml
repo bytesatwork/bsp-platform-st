@@ -1,25 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default sync-j="4" revision="dunfell"/>
+  <default sync-j="4" revision="kirkstone"/>
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="https://github.com/STMicroelectronics" name="st"/>
   <remote fetch="https://github.com/intel-iot-devkit" name="intel-iot"/>
   <remote fetch="https://github.com/meta-qt5" name="qt5"/>
-  <remote fetch="https://github.com/meta-rust" name="rust"/>
   <remote fetch="https://github.com/bytesatwork" name="bytesatwork"/>
 
-  <project remote="yocto" revision="28f080629b5151ffaedc6ea493063eb8480c3664" name="poky" path="sources/poky"/>
-  <project remote="st" revision="816fd629ab31700a5c08442b29f6906e95c31df0" name="meta-st-stm32mp" path="sources/meta-st-stm32mp"/>
-  <project remote="oe" revision="3cf22d15885cf0e3e16078705e9a20f3d21f12db" name="meta-openembedded" path="sources/meta-openembedded"/>
-  <project remote="intel-iot" revision="5431f91969087d631972d73cd03b16eed0a61987" name="meta-iot-cloud" path="sources/meta-iot-cloud"/>
-  <project remote="qt5" revision="b4d24d70aca75791902df5cd59a4f4a54aa4a125" name="meta-qt5" path="sources/meta-qt5"/>
-  <project remote="rust" revision="d4384db8c3f0aa01732627f92fc3d446359bf743" name="meta-rust" path="sources/meta-rust"/>
-  <project remote="bytesatwork" revision="10253c8e6edb1a764f15d7979e3fbb70d16f063b" name="meta-bytesatwork" path="sources/meta-bytesatwork"/>
-  <project remote="bytesatwork" revision="140b5db2f1200953860cf167601f7c5d96365222" name="meta-bytesatwork-st" path="sources/meta-bytesatwork-st"/>
-  <project remote="bytesatwork" revision="bd2424d05c61003c719eb673d56b3186aacba10d" name="bsp-base-st" path="sources/base">
+  <project remote="yocto" revision="27fde9cc2aeddb9ea964efb4cc2de7c608256777" name="poky" path="sources/poky"/>
+  <project remote="st" revision="b361e0b1a38f95fee6ab657dc24f5337f4c02226" name="meta-st-stm32mp" path="sources/meta-st-stm32mp"/>
+  <project remote="oe" revision="a47ef046619d639dfbd3be2a13ef6d5b40fd40a1" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="intel-iot" revision="1c6a50d914583997879031be5787fc9672a37b95" name="meta-iot-cloud" path="sources/meta-iot-cloud"/>
+  <project remote="qt5" revision="5b71df60e523423b9df6793de9387f87a149ac42" name="meta-qt5" path="sources/meta-qt5"/>
+  <project remote="bytesatwork" revision="b2887d13f329a4cf6e5dc4f4eb3e8eb7ff43264e" name="meta-bytesatwork" path="sources/meta-bytesatwork"/>
+  <project remote="bytesatwork" revision="d6995bb8ff0c4a468699070c7bceaa58833df301" name="meta-bytesatwork-st" path="sources/meta-bytesatwork-st"/>
+  <project remote="bytesatwork" revision="8d5d22027041f4b5956ab466500a492dc0b0c3ba" name="bsp-base-st" path="sources/base">
     <copyfile dest="README.md" src="README.md"/>
     <copyfile dest="setup-environment" src="setup-environment"/>
   </project>
