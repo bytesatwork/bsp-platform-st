@@ -10,13 +10,13 @@
   <remote fetch="https://github.com/meta-qt5" name="qt5"/>
   <remote fetch="https://github.com/bytesatwork" name="bytesatwork"/>
 
-  <project remote="yocto" revision="2b21c6009aa6b955e1a0e7312c3c0ad66557681b" name="poky" path="sources/poky"/>
-  <project remote="st" revision="311a492c21f0f3643f4b764f8b743c4c6908d31b" name="meta-st-stm32mp" path="sources/meta-st-stm32mp"/>
-  <project remote="oe" revision="5a6f7925bd2b885955c942573f70a5594f231563" name="meta-openembedded" path="sources/meta-openembedded"/>
-  <project remote="intel-iot" revision="65e2c5b2e5cb33760b2deb0fc249ab43ebdf08ef" name="meta-iot-cloud" path="sources/meta-iot-cloud"/>
-  <project remote="qt5" revision="644ebf220245bdc06e7696ccc90acc97a0dd2566" name="meta-qt5" path="sources/meta-qt5"/>
-  <project remote="bytesatwork" revision="13709916516470d2eea2c104ccaa633c21ff90d7" name="meta-bytesatwork" path="sources/meta-bytesatwork"/>
-  <project remote="bytesatwork" revision="ae353629bbf12c7f4d858d5b9c2d58f570a7768e" name="meta-bytesatwork-st" path="sources/meta-bytesatwork-st"/>
+  <project remote="yocto" revision="0b37512fb4b231cc106768e2a7328431009b3b70" name="poky" path="sources/poky"/>
+  <project remote="st" revision="b820cf3a1a855d2bd95969251e6465e281502759" name="meta-st-stm32mp" path="sources/meta-st-stm32mp"/>
+  <project remote="oe" revision="2338409efc51cf2022ff5610a9fb689251706e2b" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="intel-iot" revision="cc940a12d3f1938d504aa0ca64031c7590fe686a" name="meta-iot-cloud" path="sources/meta-iot-cloud"/>
+  <project remote="qt5" revision="eb828418264a49b8d00035cb3d7b12fcea3be801" name="meta-qt5" path="sources/meta-qt5"/>
+  <project remote="bytesatwork" revision="83f033c2cb43b6ed6c0a707a81a88e45db71f7b1" name="meta-bytesatwork" path="sources/meta-bytesatwork"/>
+  <project remote="bytesatwork" revision="da0444d732733b9e56c16b58cf336ea449f8f7c4" name="meta-bytesatwork-st" path="sources/meta-bytesatwork-st"/>
   <project remote="bytesatwork" revision="8d5d22027041f4b5956ab466500a492dc0b0c3ba" name="bsp-base-st" path="sources/base">
     <copyfile dest="README.md" src="README.md"/>
     <copyfile dest="setup-environment" src="setup-environment"/>

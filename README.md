@@ -7,7 +7,7 @@ simplify the build procedure for byteDEVKIT STM32MP1 by [bytes at work AG](https
 
 Use repo to download all necessary repositories:
 
-	repo init -u https://github.com/bytesatwork/bsp-platform-st.git -b kirkstone
+	repo init -u https://github.com/bytesatwork/bsp-platform-st.git -b scarthgap
 	repo sync
 
 When these commands are completed successfully, the following command will setup a
