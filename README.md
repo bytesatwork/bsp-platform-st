@@ -1,7 +1,7 @@
-# bytes at work AG BSP platform manifest for STM32MP1 based modules
+# bytesatwork AG BSP platform manifest for STM32MP1 based modules
 
 This repository contains the manifest for [repo](https://source.android.com/setup/develop/repo) and is intended to
-simplify the build procedure for byteDEVKIT STM32MP1 by [bytes at work AG](https://www.bytesatwork.io).
+simplify the build procedure for byteDEVKIT STM32MP1 by [bytesatwork AG](https://www.bytesatwork.io).
 
 ## Usage
 
@@ -22,3 +22,6 @@ The final command builds a minimal image:
 The output is found in:
 
 	tmp/deploy/images/bytedevkit-stm32mp1
+
+## Note
+The software provided is optimized for development convenience and is not suitable for use in production.
