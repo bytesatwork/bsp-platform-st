@@ -6,13 +6,13 @@
   <remote fetch="https://git.yoctoproject.org/" name="yocto"/>
   <remote fetch="https://github.com/" name="github"/>
 
-  <project remote="yocto" revision="0b37512fb4b231cc106768e2a7328431009b3b70" name="poky" path="sources/poky"/>
-  <project remote="github" revision="b820cf3a1a855d2bd95969251e6465e281502759" name="STMicroelectronics/meta-st-stm32mp" path="sources/meta-st-stm32mp"/>
-  <project remote="github" revision="2338409efc51cf2022ff5610a9fb689251706e2b" name="openembedded/meta-openembedded" path="sources/meta-openembedded"/>
-  <project remote="github" revision="cc940a12d3f1938d504aa0ca64031c7590fe686a" name="intel-iot-devkit/meta-iot-cloud" path="sources/meta-iot-cloud"/>
-  <project remote="github" revision="eb828418264a49b8d00035cb3d7b12fcea3be801" name="meta-qt5/meta-qt5" path="sources/meta-qt5"/>
-  <project remote="github" revision="83f033c2cb43b6ed6c0a707a81a88e45db71f7b1" name="bytesatwork/meta-bytesatwork" path="sources/meta-bytesatwork"/>
-  <project remote="github" revision="da0444d732733b9e56c16b58cf336ea449f8f7c4" name="bytesatwork/meta-bytesatwork-st" path="sources/meta-bytesatwork-st"/>
+  <project remote="yocto" revision="e711b2f39a94879812e5d7f721018f911f25ce38" name="poky" path="sources/poky"/>
+  <project remote="github" revision="cf183ff2d196d2691cbaf84b5ee0c777de6d0fa9" name="STMicroelectronics/meta-st-stm32mp" path="sources/meta-st-stm32mp"/>
+  <project remote="github" revision="e8fd97d86af86cdcc5a6eb3f301cbaf6a2084943" name="openembedded/meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="github" revision="7e8ce5ed80fd950d09cb9f78ee039c3c35f2bcff" name="intel-iot-devkit/meta-iot-cloud" path="sources/meta-iot-cloud"/>
+  <project remote="github" revision="554fc20c326a9b205169331644f0cb471619e63c" name="meta-qt5/meta-qt5" path="sources/meta-qt5"/>
+  <project remote="github" revision="879a3ddff10b641d96cd7f3405a4d132d65dc988" name="bytesatwork/meta-bytesatwork" path="sources/meta-bytesatwork"/>
+  <project remote="github" revision="15d2dbcd77e7ae872ab1a45b34b169eb425272d2" name="bytesatwork/meta-bytesatwork-st" path="sources/meta-bytesatwork-st"/>
   <project remote="github" revision="8d5d22027041f4b5956ab466500a492dc0b0c3ba" name="bytesatwork/bsp-base-st" path="sources/base">
     <copyfile dest="README.md" src="README.md"/>
     <copyfile dest="setup-environment" src="setup-environment"/>
