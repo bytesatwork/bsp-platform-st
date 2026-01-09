@@ -11,7 +11,7 @@
   <project remote="github" revision="e8fd97d86af86cdcc5a6eb3f301cbaf6a2084943" name="openembedded/meta-openembedded" path="sources/meta-openembedded"/>
   <project remote="github" revision="7e8ce5ed80fd950d09cb9f78ee039c3c35f2bcff" name="intel-iot-devkit/meta-iot-cloud" path="sources/meta-iot-cloud"/>
   <project remote="github" revision="554fc20c326a9b205169331644f0cb471619e63c" name="meta-qt5/meta-qt5" path="sources/meta-qt5"/>
-  <project remote="github" revision="879a3ddff10b641d96cd7f3405a4d132d65dc988" name="bytesatwork/meta-bytesatwork" path="sources/meta-bytesatwork"/>
+  <project remote="github" revision="9a2aa948fefaed65fc08f13f7426b899ded0e356" name="bytesatwork/meta-bytesatwork" path="sources/meta-bytesatwork"/>
   <project remote="github" revision="61282cbc9df6738900942fd0c79af7c78ce9435f" name="bytesatwork/meta-bytesatwork-st" path="sources/meta-bytesatwork-st"/>
   <project remote="github" revision="8d5d22027041f4b5956ab466500a492dc0b0c3ba" name="bytesatwork/bsp-base-st" path="sources/base">
     <copyfile dest="README.md" src="README.md"/>
