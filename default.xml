@@ -6,13 +6,13 @@
   <remote fetch="https://git.yoctoproject.org/" name="yocto"/>
   <remote fetch="https://github.com/" name="github"/>
 
-  <project remote="yocto" revision="72983ac391008ebceb45edc7a8f0f6d5f4fe715c" name="poky" path="sources/poky"/>
-  <project remote="github" revision="a9bfa3888324998e5c7bf9c159833ae577983bb2" name="STMicroelectronics/meta-st-stm32mp" path="sources/meta-st-stm32mp"/>
-  <project remote="github" revision="2759d8870ea387b76c902070bed8a6649ff47b56" name="openembedded/meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="yocto" revision="bb98354685781296e3b3737e7762412100f359c2" name="poky" path="sources/poky"/>
+  <project remote="github" revision="49046b2a0ad4dc29117025c94838b9befff86f23" name="STMicroelectronics/meta-st-stm32mp" path="sources/meta-st-stm32mp"/>
+  <project remote="github" revision="7eb94107580092f79ff1b639a87762fe6f96aa12" name="openembedded/meta-openembedded" path="sources/meta-openembedded"/>
   <project remote="github" revision="160081f4baed50d5221e310bfc12f46a7c299348" name="intel-iot-devkit/meta-iot-cloud" path="sources/meta-iot-cloud"/>
-  <project remote="github" revision="9ae2fe2696b10f5dc4253c4f467dc388139860bd" name="meta-qt5/meta-qt5" path="sources/meta-qt5"/>
+  <project remote="github" revision="227cf5e7b64c93dfc1a45f235c466db8c3fd8707" name="meta-qt5/meta-qt5" path="sources/meta-qt5"/>
   <project remote="github" revision="9a2aa948fefaed65fc08f13f7426b899ded0e356" name="bytesatwork/meta-bytesatwork" path="sources/meta-bytesatwork"/>
-  <project remote="github" revision="36922340fb43c0aa88175ec686d1672dd2006fd5" name="bytesatwork/meta-bytesatwork-st" path="sources/meta-bytesatwork-st"/>
+  <project remote="github" revision="66ef7e88255f7e008c8f98d71f48739d90b8e7de" name="bytesatwork/meta-bytesatwork-st" path="sources/meta-bytesatwork-st"/>
   <project remote="github" revision="8d5d22027041f4b5956ab466500a492dc0b0c3ba" name="bytesatwork/bsp-base-st" path="sources/base">
     <copyfile dest="README.md" src="README.md"/>
     <copyfile dest="setup-environment" src="setup-environment"/>

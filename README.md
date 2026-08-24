@@ -1,7 +1,7 @@
-# bytesatwork AG BSP platform manifest for STM32MP1 based modules
+# bytesatwork AG BSP platform manifest for STM32MP1 and STM32MP2 based modules
 
 This repository contains the manifest for [repo](https://source.android.com/setup/develop/repo) and is intended to
-simplify the build procedure for byteDEVKIT STM32MP1 by [bytesatwork AG](https://www.bytesatwork.io).
+simplify the build procedure for byteDEVKIT STM32MP1 and byteDEVKIT STM32MP2 by [bytesatwork AG](https://www.bytesatwork.io).
 
 ## Usage
 
@@ -11,17 +11,32 @@ Use repo to download all necessary repositories:
 	repo sync
 
 When these commands are completed successfully, the following command will setup a
-Yocto Project environment for byteDEVKIT STM32MP1:
+Yocto Project environment for:
+
+### byteDEVKIT STM32MP1
 
 	MACHINE=bytedevkit-stm32mp1 DISTRO=poky-bytesatwork EULA=1 . setup-environment build
 
 The final command builds a minimal image:
 
-	bitbake bytesatwork-minimal-image
+	MACHINE=bytedevkit-stm32mp1 bitbake bytesatwork-minimal-image
 
 The output is found in:
 
 	tmp/deploy/images/bytedevkit-stm32mp1
+
+### byteDEVKIT STM32MP2
+
+	MACHINE=bytedevkit-stm32mp2 DISTRO=poky-bytesatwork EULA=1 . setup-environment build
+
+The final command builds a minimal image:
+
+	MACHINE=bytedevkit-stm32mp2 bitbake bytesatwork-minimal-image
+
+The output is found in:
+
+	tmp/deploy/images/bytedevkit-stm32mp2
+
 
 ## Note
 The software provided is optimized for development convenience and is not suitable for use in production.
